@@ -37,18 +37,44 @@ func (d CharacterInfo) Print() {
 	)
 }
 
-type CharacterInfoLists []CharacterInfo
+type CharacterInfoList []CharacterInfo
 
-func (d CharacterInfoLists) WriteToFile() error {
-	jsonData, err := json.MarshalIndent(d, "", "  ")
+// Write all structs to one as an array
+func (d CharacterInfoList) WriteToFile() error {
+	file, err := os.Create("jsons/characters.json")
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	encoder := json.NewEncoder(file)
+	encoder.SetIndent("", "  ")
+
+	err = encoder.Encode(d)
 	if err != nil {
 		return err
 	}
 
-	err = os.WriteFile("jsons/characters.json", jsonData, 0644)
-	if err != nil {
-		return err
-	}
+	return nil
+}
 
+// Write each struct to it's own id-based json
+func (d CharacterInfoList) WriteToFiles() error {
+	for _, character := range d {
+		file, err := os.Create("jsons/character" + character.Id + ".json")
+		if err != nil {
+			return err
+		}
+		defer file.Close()
+
+		encoder := json.NewEncoder(file)
+		encoder.SetIndent("", "  ")
+
+		err = encoder.Encode(d)
+		if err != nil {
+			return err
+		}
+
+	}
 	return nil
 }

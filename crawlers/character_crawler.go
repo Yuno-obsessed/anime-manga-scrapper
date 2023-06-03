@@ -1,10 +1,10 @@
 package crawlers
 
 import (
+	"crawler/config"
 	"crawler/model"
 	"fmt"
 	"log"
-	"net/http"
 	"strconv"
 
 	"github.com/PuerkitoBio/goquery"
@@ -13,22 +13,11 @@ import (
 func CrawlCharacter(id int) (model.CharacterInfo, error) {
 	crawlUrl := "https://anidb.net/character/"
 
-	request, err := http.NewRequest("GET", crawlUrl+strconv.Itoa(id), nil)
-	if err != nil {
-		log.Fatal(err)
-	}
+	response, err := config.PrepareRequest(crawlUrl + strconv.Itoa(id))
 
-	request.Header.Set("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57")
-	client := http.DefaultClient
-	response, err := client.Do(request)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer response.Body.Close()
-
-	fmt.Println(response.StatusCode)
-
-	if response.StatusCode != 200 {
+	if response.StatusCode == 404 {
+		return model.CharacterInfo{}, config.ErrNotFound
+	} else if response.StatusCode != 200 {
 		return model.CharacterInfo{}, fmt.Errorf("%v", response.StatusCode)
 	}
 
@@ -36,9 +25,11 @@ func CrawlCharacter(id int) (model.CharacterInfo, error) {
 	if err != nil {
 		log.Fatal(err)
 	}
+	defer response.Body.Close()
 
-	out := model.CharacterInfo{}
-
+	out := model.CharacterInfo{
+		Id: strconv.Itoa(id),
+	}
 	img := doc.Find("div.image div.container picture img")
 	out.ImageUrl, _ = img.Attr("src")
 
@@ -95,7 +86,7 @@ func CrawlCharacter(id int) (model.CharacterInfo, error) {
 	out.RoleDesc = roleDescs
 
 	creatorIds := []string{}
-	doc.Find("div.container.g_bubble tbody tr:not(.rowspan)").Each(func(i int, e *goquery.Selection) {
+	doc.Find("div#" + strconv.Itoa(id) + " div.container.g_bubble tbody tr:not(.rowspan)").Each(func(i int, e *goquery.Selection) {
 		creator, _ := e.Find("td.name.creator a").Attr("href")
 		creator = creator[9:]
 		creatorIds = append(creatorIds, creator)

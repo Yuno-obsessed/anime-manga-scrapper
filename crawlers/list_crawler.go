@@ -1,9 +1,9 @@
 package crawlers
 
 import (
+	"crawler/config"
 	"fmt"
 	"log"
-	"net/http"
 	"strings"
 
 	"github.com/PuerkitoBio/goquery"
@@ -29,20 +29,7 @@ func CrawlList() []string {
 
 	animeUrlList := []string{}
 
-	request, err := http.NewRequest("GET", crawlUrl, nil)
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	request.Header.Set("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57")
-	client := http.DefaultClient
-	response, err := client.Do(request)
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer response.Body.Close()
-
-	fmt.Println(response.StatusCode)
+	response, err := config.PrepareRequest(crawlUrl)
 
 	doc, err := goquery.NewDocumentFromReader(response.Body)
 	if err != nil {
