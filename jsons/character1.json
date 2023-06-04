@@ -1,125 +1,59 @@
-[
-  {
-    "id": "1",
-    "image_url": "https://cdn-eu.anidb.net/images/main/52595.jpg",
-    "description": "The young civilian who becomes the pilot of the prototype Strike Gundam. Kira is a first-generation Coordinator whose parents are Naturals, and his family has taken refuge in the neutral territory of the resource satellite Heliopolis to avoid the war. However, Kira finds himself drawn into the conflict when Heliopolis is attacked by ZAFT forces, and he remains aboard the Earth Alliance warship Archangel in order to protect his friends and loved ones. As a Coordinator, Kira has remarkable mental and physical abilities, and his computer programming talents enable him to rewrite the Strike Gundam's operating system in mid-battle to adapt to new combat conditions.\n\t",
-    "main_name": "Kira Yamato",
-    "official_name": "キラ・ヤマト",
-    "date_of_birth": "18.05 Cosmic Era 55",
-    "age": "16-18",
-    "gender": "male",
-    "height": "165",
-    "weight": "65",
-    "age_range": "adolescent",
-    "age_range_desc": "An adolescent (teenager) is 13 to 19 years old.",
-    "entity": [
-      "human",
-      "coordinator"
-    ],
-    "entity_desc": [
-      "Modern humans are the only extant members of the subtribe Hominina. Together with chimpanzees, gorillas, and orangutans, they are part of the family Hominidae. Terrestrial animals, humans are characterized by their erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; larger, more complex brains than other animals; and highly advanced and organized societies.",
-      "Coordinators are genetically enhanced human beings who possess a number of enhanced traits, including faster learning and stronger and faster bodies that are virtually immune to diseases. They are physically and mentally superior to baseline normal humans."
-    ],
-    "role": [
-      "mecha pilot",
-      "student"
-    ],
-    "role_desc": [
-      "This character pilots some sort of robot/mecha, be it a mobile suit or whatever else.",
-      "A student or pupil is a learner, or someone who attends an educational institution. The may be understood to mean only those enrolled in some sort of educational institution, but, in its widest use, it applies to anyone who is learning, including mid-career adults who are taking vocational education or returning to university, or younger researchers or artists learning from a more experienced colleague and mentor."
-    ],
-    "creator_id": [
-      "381"
-    ],
-    "anime_id": [
-      "252",
-      "2186",
-      "4170",
-      "4905",
-      "4457",
-      "4758",
-      "4466",
-      "4168",
-      "4169",
-      "4165"
-    ],
-    "cnime_eps_occur": [
-      "1-19, 41-50, S1",
-      "6-9, 11-15, 17, 22-28, 30-35, 37-39, 42-50",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "1",
-      "",
-      ""
-    ]
-  },
-  {
-    "id": "2",
-    "image_url": "https://cdn-eu.anidb.net/images/main/250337.jpg",
-    "description": "",
-    "main_name": "Onizuka Eikichi",
-    "official_name": "Онизука Екичи",
-    "date_of_birth": "",
-    "age": "22",
-    "gender": "male",
-    "height": "",
-    "weight": "",
-    "age_range": "young adult",
-    "age_range_desc": "Someone is generally considered a young adult if they are between 20 to 40 years old.",
-    "entity": [
-      "human",
-      "human"
-    ],
-    "entity_desc": [
-      "Modern humans are the only extant members of the subtribe Hominina. Together with chimpanzees, gorillas, and orangutans, they are part of the family Hominidae. Terrestrial animals, humans are characterized by their erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; larger, more complex brains than other animals; and highly advanced and organized societies.",
-      "Modern humans are the only extant members of the subtribe Hominina. Together with chimpanzees, gorillas, and orangutans, they are part of the family Hominidae. Terrestrial animals, humans are characterized by their erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; larger, more complex brains than other animals; and highly advanced and organized societies."
-    ],
-    "role": [
-      "teacher",
-      "delinquent",
-      "motorcyclist",
-      "delinquent"
-    ],
-    "role_desc": [
-      "A teacher is a person who helps people to learn. A teacher often works in a classroom. There are many different kinds of teachers. Some teachers teach young children in schools called elementary or primary schools. Others teach older children in middle, junior high and high schools. Some teachers teach adults in more advanced schools.",
-      "Delinquents - Every school has them, but not all anime with school setting make delinquents a central topic. There are several versions of these delinquents, though some are grounded on a misunderstanding.",
-      "A person who is skilled at riding a motorcycle/motorbike and does so on a regular basis.",
-      "Delinquents - Every school has them, but not all anime with school setting make delinquents a central topic. There are several versions of these delinquents, though some are grounded on a misunderstanding."
-    ],
-    "creator_id": [
-      "335"
-    ],
-    "anime_id": [],
-    "cnime_eps_occur": []
-  },
-  {
-    "id": "3",
-    "image_url": "https://cdn-eu.anidb.net/images/main/10685.gif",
-    "description": "Mamoru Takamura (鷹村 守, Takamura Mamoru?), voiced by Rikiya Koyama, is a strong boxer that has never lost a match. He has an incredible athletic ability that shows through in his strength. Takamura also has an insatiable appetite for women, which is only overshadowed by his obsession for victory. At one point, he single-handedly knocks out an adult bear while sustaining gashes on his arm and most notably on his chest. The weakened bear is eventually killed, and he is dubbed \"The Bear Slayer\", he honors it by wearing its pelt, and the scars proudly.\n\nHe originally is a delinquent that often gets into fights. Because of his strength, he often leaves the victims with serious injuries. He was disowned by his family due to a brawl initiated by Takamura that happened during a rugby match (with his older brother competing), when fans started booing Takamura's brother, by the time the brawl was over, at least 20 people were beat up. After that incident, he continues to fight until he meets Coach Kamogawa. After weeks of training, and without a single spar, Takamura defeats his first opponent in 25 seconds of the first round by KO. His aspiration is to conquer the World Title in several weight classes, from Junior Middleweight and up.\n\t",
-    "main_name": "Takamura Mamoru",
-    "official_name": "",
-    "date_of_birth": "07.07.1969",
-    "age": "young adultSomeone is generally considered a young adult if they are between 20 to 40 years old.",
-    "gender": "",
-    "height": "",
-    "weight": "",
-    "age_range": "young adult",
-    "age_range_desc": "Someone is generally considered a young adult if they are between 20 to 40 years old.",
-    "entity": [
-      "human"
-    ],
-    "entity_desc": [
-      "Modern humans are the only extant members of the subtribe Hominina. Together with chimpanzees, gorillas, and orangutans, they are part of the family Hominidae. Terrestrial animals, humans are characterized by their erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; larger, more complex brains than other animals; and highly advanced and organized societies."
-    ],
-    "role": [],
-    "role_desc": [],
-    "creator_id": [
-      "244"
-    ],
-    "anime_id": [],
-    "cnime_eps_occur": []
-  }
-]
+{
+  "id": "1",
+  "image_url": "https://cdn-eu.anidb.net/images/main/52595.jpg",
+  "description": "The young civilian who becomes the pilot of the prototype Strike Gundam. Kira is a first-generation Coordinator whose parents are Naturals, and his family has taken refuge in the neutral territory of the resource satellite Heliopolis to avoid the war. However, Kira finds himself drawn into the conflict when Heliopolis is attacked by ZAFT forces, and he remains aboard the Earth Alliance warship Archangel in order to protect his friends and loved ones. As a Coordinator, Kira has remarkable mental and physical abilities, and his computer programming talents enable him to rewrite the Strike Gundam's operating system in mid-battle to adapt to new combat conditions.\n\t",
+  "main_name": "Kira Yamato",
+  "official_name": "キラ・ヤマト",
+  "date_of_birth": "18.05 Cosmic Era 55",
+  "age": "16-18",
+  "gender": "male",
+  "height": "165",
+  "weight": "65",
+  "abilities": [],
+  "abilities_desc": [],
+  "age_range": "adolescent",
+  "age_range_desc": "An adolescent (teenager) is 13 to 19 years old.",
+  "entity": [
+    "human",
+    "coordinator"
+  ],
+  "entity_desc": [
+    "Modern humans are the only extant members of the subtribe Hominina. Together with chimpanzees, gorillas, and orangutans, they are part of the family Hominidae. Terrestrial animals, humans are characterized by their erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; larger, more complex brains than other animals; and highly advanced and organized societies.",
+    "Coordinators are genetically enhanced human beings who possess a number of enhanced traits, including faster learning and stronger and faster bodies that are virtually immune to diseases. They are physically and mentally superior to baseline normal humans."
+  ],
+  "role": [
+    "mecha pilot",
+    "student"
+  ],
+  "role_desc": [
+    "This character pilots some sort of robot/mecha, be it a mobile suit or whatever else.",
+    "A student or pupil is a learner, or someone who attends an educational institution. The may be understood to mean only those enrolled in some sort of educational institution, but, in its widest use, it applies to anyone who is learning, including mid-career adults who are taking vocational education or returning to university, or younger researchers or artists learning from a more experienced colleague and mentor."
+  ],
+  "creator_id": [
+    "381"
+  ],
+  "anime_id": [
+    "252",
+    "2186",
+    "4170",
+    "4905",
+    "4457",
+    "4758",
+    "4466",
+    "4168",
+    "4169",
+    "4165"
+  ],
+  "anime_eps_occur": [
+    "1-19, 41-50, S1",
+    "6-9, 11-15, 17, 22-28, 30-35, 37-39, 42-50",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "1",
+    "",
+    ""
+  ]
+}

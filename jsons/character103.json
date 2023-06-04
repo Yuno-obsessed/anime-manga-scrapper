@@ -1,0 +1,69 @@
+{
+  "id": "103",
+  "image_url": "https://cdn-eu.anidb.net/images/main/16249.jpg",
+  "description": "Mad Hatter Lelouch.\n\tShortly after gaining the power of Geass from C.C., Lelouch assumes the secret identity Zero, a mysterious, masked revolutionary dressed in a black helmet and cloak. The helmet has a retractable plate over the left eye so Lelouch can use his Geass. In this guise, he forms the Order of the Black Knights, initially composed of the members of Kaname Ohgi's resistance group. The goal of this vigilante group is a campaign against powerful individuals who oppress the helpless, which he eventually expands into reforming Japan as an independent nation.\n\t",
+  "main_name": "Lelouch Lamperouge",
+  "official_name": "Лелуш Ламперуж",
+  "date_of_birth": "05.12.2000 a.t.b.",
+  "age": "17",
+  "gender": "male",
+  "height": "178",
+  "weight": "",
+  "abilities": [
+    "chess",
+    "genius",
+    "leadership",
+    "Geass"
+  ],
+  "abilities_desc": [
+    "Chess is a game for two players. It is played on a square board, made of 64 smaller squares, with eight squares on each side. Each player starts with sixteen pieces (eight pawns, two each of knights, bishops, and rooks, and one king and queen). One player`s pieces are a light color, he is called \"White\", and the other player`s pieces are a dark color, he is called \"Black\".",
+    "A genius is someone possessing extraordinary intelligence or skill, normally to a degree associated with the achievement of unprecedented insight, and especially when demonstrated through a creative or original work in a field of human knowledge. Such ability is well beyond the realm of an ordinarily clever person, who instead applies a sharp mind to mundane levels of skill.",
+    "The ability to lead skillfully."
+  ],
+  "age_range": "adolescent",
+  "age_range_desc": "An adolescent (teenager) is 13 to 19 years old.",
+  "entity": [
+    "human"
+  ],
+  "entity_desc": [
+    "Modern humans are the only extant members of the subtribe Hominina. Together with chimpanzees, gorillas, and orangutans, they are part of the family Hominidae. Terrestrial animals, humans are characterized by their erect posture and bipedal locomotion; high manual dexterity and heavy tool use compared to other animals; open-ended and complex language use compared to other animal communications; larger, more complex brains than other animals; and highly advanced and organized societies."
+  ],
+  "role": [
+    "parricide",
+    "harem lead",
+    "prince",
+    "student council vice president",
+    "student"
+  ],
+  "role_desc": [
+    "Parricide, or the murder of family members, is the act of taking the life of of one or more of one`s own close family members, or even one`s entire family; that may include spouses, parents, grandparents, children, grandchildren, siblings, cousins, uncles, aunts, nephews, and nieces, among others.",
+    "Harem is a genre/plot frame that is mostly present in the media of Anime, Manga, Light Novels, Visual Novels, and Video Games. It usually involves at least three or more females who for some reason are in the presence of one male as a central plot element.\n\nSaid male is usually oblivious to the fact that the surrounding females are romantically interested in him.",
+    "The son of a monarch or a close male relative of a monarch, esp. a son`s son.\nA male royal ruler of a small state, actually, nominally, or originally subject to a king or emperor. (In France, Germany and other European countries) A nobleman, usually ranking next below a duke.",
+    "no description set",
+    "A student or pupil is a learner, or someone who attends an educational institution. The may be understood to mean only those enrolled in some sort of educational institution, but, in its widest use, it applies to anyone who is learning, including mid-career adults who are taking vocational education or returning to university, or younger researchers or artists learning from a more experienced colleague and mentor."
+  ],
+  "creator_id": [
+    "14",
+    "74"
+  ],
+  "anime_id": [
+    "12566",
+    "4521",
+    "8914",
+    "5373",
+    "7127",
+    "7126",
+    "12567",
+    "6031"
+  ],
+  "anime_eps_occur": [
+    "1, S4",
+    "1-10, 12-25, S4, S7, S9-S13",
+    "",
+    "1-8, 12-17, 19-21, S3-S4, S7, S10-S13, S15-S17, S19-S21",
+    "",
+    "",
+    "1-3",
+    "1"
+  ]
+}

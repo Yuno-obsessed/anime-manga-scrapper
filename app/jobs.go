@@ -13,11 +13,13 @@ func CrawlCharacters() (model.CharacterInfoList, error) {
 	crawledCharacters := model.CharacterInfoList{}
 	var err error
 	// for missedIds < 100 {
-	for len(crawledCharacters) < 3 {
+	for len(crawledCharacters) < 2 {
 
 		character, err := crawlers.CrawlCharacter(idInt)
 		if errors.Is(err, config.ErrNotFound) {
 			missedIds++
+			idInt++
+			continue
 		} else if err != nil {
 			return nil, err
 		} else if err == nil {

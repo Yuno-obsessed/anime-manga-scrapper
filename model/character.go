@@ -3,6 +3,7 @@ package model
 import (
 	"encoding/json"
 	"fmt"
+	"log"
 	"os"
 )
 
@@ -17,6 +18,8 @@ type CharacterInfo struct {
 	Gender        string   `json:"gender"`
 	Height        string   `json:"height"`
 	Weight        string   `json:"weight"`
+	Abilities     []string `json:"abilities"`
+	AbilitiesDesc []string `json:"abilities_desc"`
 	AgeRange      string   `json:"age_range"`
 	AgeRangeDesc  string   `json:"age_range_desc"`
 	Entity        []string `json:"entity"`
@@ -25,14 +28,14 @@ type CharacterInfo struct {
 	RoleDesc      []string `json:"role_desc"`
 	CreatorIds    []string `json:"creator_id"`
 	AnimeIds      []string `json:"anime_id"`
-	AnimeEpsOccur []string `json:"cnime_eps_occur"`
+	AnimeEpsOccur []string `json:"anime_eps_occur"`
 }
 
 func (d CharacterInfo) Print() {
 	fmt.Printf(
-		"\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n",
+		"\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n",
 		d.ImageUrl, d.Description, d.MainName, d.OfficialName, d.DateOfBirth,
-		d.Age, d.Gender, d.Height, d.Weight, d.AgeRange, d.AgeRangeDesc,
+		d.Age, d.Gender, d.Height, d.Weight, d.Abilities, d.AbilitiesDesc, d.AgeRange, d.AgeRangeDesc,
 		d.Entity, d.EntityDesc, d.Role, d.RoleDesc, d.CreatorIds, d.AnimeIds, d.AnimeEpsOccur,
 	)
 }
@@ -55,6 +58,7 @@ func (d CharacterInfoList) WriteToFile() error {
 		return err
 	}
 
+	log.Println("Successfully wrote", len(d), "characters to file.")
 	return nil
 }
 
@@ -70,11 +74,11 @@ func (d CharacterInfoList) WriteToFiles() error {
 		encoder := json.NewEncoder(file)
 		encoder.SetIndent("", "  ")
 
-		err = encoder.Encode(d)
+		err = encoder.Encode(character)
 		if err != nil {
 			return err
 		}
-
+		log.Println("Successfully wrote", character.Id, "to file.")
 	}
 	return nil
 }
