@@ -3,10 +3,15 @@ package config
 import (
 	"errors"
 	"log"
+	"math/rand"
 	"net/http"
+	"time"
+
+	"github.com/corpix/uarand"
 )
 
 var ErrNotFound error = errors.New("404")
+var Random = rand.New(rand.NewSource(time.Now().UnixNano()))
 
 func PrepareRequest(url string) (*http.Response, error) {
 	log.Println(url)
@@ -15,7 +20,7 @@ func PrepareRequest(url string) (*http.Response, error) {
 		return nil, err
 	}
 
-	request.Header.Set("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57")
+	request.Header.Set("user-agent", uarand.GetRandom())
 	client := http.DefaultClient
 	response, err := client.Do(request)
 	if err != nil {

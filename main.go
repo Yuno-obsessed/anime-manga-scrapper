@@ -6,11 +6,7 @@ import (
 )
 
 func main() {
-	charactersResult, err := app.CrawlCharacters()
-	if err != nil {
-		fmt.Println(err)
-	}
-	err = charactersResult.WriteToFiles()
+	err := app.CrawlCharacters()
 	if err != nil {
 		fmt.Println(err)
 	}

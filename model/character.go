@@ -2,49 +2,48 @@ package model
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"os"
 )
 
 type CharacterInfo struct {
-	Id            string   `json:"id"`
-	ImageUrl      string   `json:"image_url"`
-	Description   string   `json:"description"`
-	MainName      string   `json:"main_name"`
-	OfficialName  string   `json:"official_name"`
-	DateOfBirth   string   `json:"date_of_birth"`
-	Age           string   `json:"age"`
-	Gender        string   `json:"gender"`
-	Height        string   `json:"height"`
-	Weight        string   `json:"weight"`
-	Abilities     []string `json:"abilities"`
-	AbilitiesDesc []string `json:"abilities_desc"`
-	AgeRange      string   `json:"age_range"`
-	AgeRangeDesc  string   `json:"age_range_desc"`
-	Entity        []string `json:"entity"`
-	EntityDesc    []string `json:"entity_desc"`
-	Role          []string `json:"role"`
-	RoleDesc      []string `json:"role_desc"`
-	CreatorIds    []string `json:"creator_id"`
-	AnimeIds      []string `json:"anime_id"`
-	AnimeEpsOccur []string `json:"anime_eps_occur"`
+	Id            string
+	ImageUrl      string
+	Description   string
+	MainName      string
+	OfficialName  string
+	DateOfBirth   string
+	Age           string
+	Gender        string
+	Height        string
+	Weight        string
+	Abilities     []string
+	AbilitiesDesc []string
+	AgeRange      string
+	AgeRangeDesc  string
+	Entities      []string
+	EntityDesc    []string
+	Roles         []string
+	RolesDesc     []string
+	CreatorIds    []string
+	AnimeIds      []string
+	AnimeEpsOccur []string
 }
 
-func (d CharacterInfo) Print() {
-	fmt.Printf(
-		"\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n%v\n",
-		d.ImageUrl, d.Description, d.MainName, d.OfficialName, d.DateOfBirth,
-		d.Age, d.Gender, d.Height, d.Weight, d.Abilities, d.AbilitiesDesc, d.AgeRange, d.AgeRangeDesc,
-		d.Entity, d.EntityDesc, d.Role, d.RoleDesc, d.CreatorIds, d.AnimeIds, d.AnimeEpsOccur,
-	)
-}
+type CharacterInfoList []*CharacterInfo
 
-type CharacterInfoList []CharacterInfo
+// Write each struct to it's own file
+func (d *CharacterInfo) WriteToFile() error {
+	dirPath := "./jsons/character"
 
-// Write all structs to one as an array
-func (d CharacterInfoList) WriteToFile() error {
-	file, err := os.Create("jsons/characters.json")
+	err := os.MkdirAll(dirPath, os.ModePerm)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	log.Printf("Directory created: %s", dirPath)
+
+	file, err := os.Create("jsons/character/character" + d.Id + ".json")
 	if err != nil {
 		return err
 	}
@@ -58,27 +57,25 @@ func (d CharacterInfoList) WriteToFile() error {
 		return err
 	}
 
-	log.Println("Successfully wrote", len(d), "characters to file.")
+	log.Println("Successfully wrote character", d.Id, "to file.")
 	return nil
 }
 
-// Write each struct to it's own id-based json
-func (d CharacterInfoList) WriteToFiles() error {
-	for _, character := range d {
-		file, err := os.Create("jsons/character" + character.Id + ".json")
-		if err != nil {
-			return err
-		}
-		defer file.Close()
-
-		encoder := json.NewEncoder(file)
-		encoder.SetIndent("", "  ")
-
-		err = encoder.Encode(character)
-		if err != nil {
-			return err
-		}
-		log.Println("Successfully wrote", character.Id, "to file.")
+// Write a slice of structs to one json
+func (d *CharacterInfoList) WriteToFile() error {
+	file, err := os.Create("jsons/characters.json")
+	if err != nil {
+		return err
 	}
+	defer file.Close()
+
+	encoder := json.NewEncoder(file)
+	encoder.SetIndent("", "  ")
+
+	err = encoder.Encode(d)
+	if err != nil {
+		return err
+	}
+	log.Println("Successfully wrote", len(*d), "characters to file", file.Name())
 	return nil
 }

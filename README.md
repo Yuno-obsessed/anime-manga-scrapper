@@ -1,5 +1,8 @@
-# 1 Create models to hold models to crawl, slices
+## Anime info scrapper from anidb
 
-# 2 Create custom errors to see if a status is 404 in error
+#### Todo:
 
-# 3 Return all methods in crawlers
+- [] add dynamical proxy
+- [] add creator scrapper
+- [] add anime scrapper
+- [] add cast scrapper
