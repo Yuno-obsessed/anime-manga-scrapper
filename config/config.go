@@ -2,9 +2,14 @@ package config
 
 import (
 	"errors"
+	"fmt"
 	"log"
 	"math/rand"
 	"net/http"
+	"net/url"
+	"os"
+	"strconv"
+	"strings"
 	"time"
 
 	"github.com/corpix/uarand"
@@ -21,6 +26,13 @@ func PrepareRequest(url string) (*http.Response, error) {
 	}
 
 	request.Header.Set("user-agent", uarand.GetRandom())
+	// client, err := generateRandomProxy()
+	// if err != nil {
+	// 	return nil, err
+	// }
+	for headerName, headerValue := range request.Header {
+		fmt.Printf("\t%s = %s\n", headerName, strings.Join(headerValue, ", "))
+	}
 	client := http.DefaultClient
 	response, err := client.Do(request)
 	if err != nil {
@@ -29,4 +41,19 @@ func PrepareRequest(url string) (*http.Response, error) {
 
 	log.Println(response.StatusCode)
 	return response, err
+}
+
+func generateRandomProxy() (*http.Client, error) {
+	// num := Random.Intn(4)
+	ur := os.Getenv("proxy" + strconv.Itoa(1))
+	proxyUrl, err := url.Parse("http://" + ur)
+	fmt.Println(ur)
+	if err != nil {
+		return http.DefaultClient, err
+	}
+	return &http.Client{
+		Transport: &http.Transport{
+			Proxy: http.ProxyURL(proxyUrl),
+		},
+	}, nil
 }

@@ -2,12 +2,18 @@ package main
 
 import (
 	"crawler/app"
-	"fmt"
+	"log"
+
+	"github.com/joho/godotenv"
 )
 
 func main() {
-	err := app.CrawlCharacters()
+	err := godotenv.Load(".env")
 	if err != nil {
-		fmt.Println(err)
+		log.Println(err)
+	}
+	err = app.CrawlAnime()
+	if err != nil {
+		log.Println(err)
 	}
 }

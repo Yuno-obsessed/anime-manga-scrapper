@@ -5,6 +5,7 @@ import (
 	"crawler/crawlers"
 	"crawler/security"
 	"errors"
+	"log"
 )
 
 func CrawlCharacters() error {
@@ -26,6 +27,10 @@ func CrawlCharacters() error {
 			missedIds = 0
 		}
 
+		if character.ImageUrl == "" {
+			log.Println("got banned")
+			continue
+		}
 		err = character.WriteToFile()
 		if err != nil {
 			return err
@@ -39,12 +44,12 @@ func CrawlCharacters() error {
 }
 
 func CrawlAnime() error {
-	idInt := 102
+	idInt := 1
 	missedIds := 0
 	// crawledAnime := model.AnimeInfoList{}
 	var err error
 	// for missedIds < 100 {
-	for idInt < 104 {
+	for idInt < 10 {
 
 		anime, err := crawlers.CrawlAnime(idInt)
 		if errors.Is(err, config.ErrNotFound) {
@@ -52,11 +57,16 @@ func CrawlAnime() error {
 			idInt++
 			continue
 		} else if err != nil {
-			return err
+			log.Println(err)
+			continue
 		} else if err == nil {
 			missedIds = 0
 		}
 
+		if anime.ImageUrl == "" {
+			log.Println("got banned")
+			continue
+		}
 		err = anime.WriteToFile()
 		if err != nil {
 			return err

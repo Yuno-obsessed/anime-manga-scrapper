@@ -7,11 +7,35 @@ import (
 )
 
 type AnimeInfo struct {
-	Id       string `json:"id"`
-	ImageUrl string `json:"image_url"`
-	Title    string `json:"title"`
-	Type     string `json:"type"`
-	Year     string `json:"year"`
+	Id                  string        `json:"id"`
+	ImageUrl            string        `json:"image_url"`
+	Title               string        `json:"title"`
+	OfficialTitleEng    string        `json:"off_title_eng"`
+	OfficialTitleJa     string        `json:"off_title_ja"`
+	Description         string        `json:"description"`
+	Type                string        `json:"type"`
+	Year                string        `json:"year"`
+	Tags                []string      `json:"tags"`
+	TagsDesc            []string      `json:"tags_desc"`
+	StaffNCredit        []StaffCredit `json:"staff_credit"` // a lot of stuff here lol
+	MainCharacters      []string      `json:"main_characters"`
+	SecondaryCharacters []string      `json:"secondary_characters"`
+	AppearsCharacters   []string      `json:"appears_characters"`
+}
+
+type StaffCredit struct {
+	Credit Credit
+	Staff  []Staff
+}
+
+type Staff struct {
+	Id   string
+	Name string
+}
+
+type Credit struct {
+	Id   string
+	Name string
 }
 
 type AnimeInfoList []*AnimeInfo

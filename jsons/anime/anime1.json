@@ -1,0 +1,1780 @@
+{
+  "id": "1",
+  "image_url": "https://cdn-eu.anidb.net/images/main/224618.jpg",
+  "title": "Seikai no Monshou",
+  "off_title_eng": "Crest of the Stars",
+  "off_title_ja": "星界の紋章",
+  "description": "* Based on the sci-fi novel series by Morioka Hiroyuki.\n\nLinn Jinto's life changes forever when the Humankind Empire Abh takes over his home planet of Martine without firing a single shot. He is soon sent off to study the Abh language and culture and to prepare himself for his future as a nobleman — a future he never dreamed of, asked for, or even wanted.\n\nNow, Jinto is entering the next phase of his training, and he is about to meet the first Abh in his life, the lovely Lafiel. However, Jinto is about to learn that there is more to her than meets the eye, and together they will have to fight for their very lives.\n\t",
+  "type": "TV Series, 13 episodes",
+  "year": "03.01.1999 until 28.03.1999",
+  "tags": [
+    "action",
+    "adventure",
+    "genetic modification",
+    "novel",
+    "science fiction",
+    "space travel"
+  ],
+  "tags_desc": [
+    "Action anime usually involve a fairly straightforward story of good guys versus bad guys, where most disputes are resolved by using physical force. It often contains a lot of shooting, explosions and fighting.",
+    "Adventures are exciting stories, designed to provide an action-filled, energetic experience for the viewer. Rather than the predominant emphasis on violence and fighting, the viewer of adventures can live vicariously through the travels, conquests, explorations, creation of empires, struggles and situations that confront the main characters. Adventure films are often, but not always, set in an historical period.",
+    "Story-wise, genetic modification is usually centred on humans, probably the most subtle and creepy way of messing with mankind. Playing with the fear of the unknown, genetically altered humans are technically a new species, that may not only surpass but actually replace unaltered humans. The level of modification will vary from subtle changes in \"look\" (e.g. beauty), to mental enhancements (PSI powers), to more or less atrocious adaptations to extreme environments (breath under water).",
+    "A novel is a relatively long work of narrative fiction, normally written in prose form, and which is typically published as a book. Manga, comics, or visual novels do not fit this description and are not considered novels; including a small number of illustrations, however, is still permissible, which means that light novels are considered novels.",
+    "Science fiction stories usually focus on how situations could be different in the future when we are more technologically advanced; due to either our own achievements or having met with other civilizations whom we have learned from.",
+    "Space Travel usually refers going to space or travelling there with or without a spacecraft. There are different forms of space travel like Interplanetary travel, Interstellar travel or Intergalactic travel. Since it isn`t possible to travel faster than light, most anime series involve some sort \"sub-space travel mechanism\" as a way to travel faster than light."
+  ],
+  "staff_credit": [
+    {
+      "Credit": {
+        "Id": "34",
+        "Name": "Original Work (原作)"
+      },
+      "Staff": [
+        {
+          "Id": "4495",
+          "Name": "Morioka Hiroyuki"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "291",
+        "Name": "Manga (漫画)"
+      },
+      "Staff": [
+        {
+          "Id": "17304",
+          "Name": "Ono Toshihiro"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "290",
+        "Name": "Serialisation (連載)"
+      },
+      "Staff": [
+        {
+          "Id": "24061",
+          "Name": "Gekkan Comic Dengeki Daiou"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "1",
+        "Name": "Direction (監督)"
+      },
+      "Staff": [
+        {
+          "Id": "4234",
+          "Name": "Nagaoka Yasuchika"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "36",
+        "Name": "Series Composition (シリーズ構成)"
+      },
+      "Staff": [
+        {
+          "Id": "8924",
+          "Name": "Yoshinaga Aya"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "11",
+        "Name": "Character Design (キャラクターデザイン)"
+      },
+      "Staff": [
+        {
+          "Id": "4516",
+          "Name": "Watabe Keisuke"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "533",
+        "Name": "Visual Concept (ビジュアルコンセプト)"
+      },
+      "Staff": [
+        {
+          "Id": "1702",
+          "Name": "Akai Takami"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "533",
+        "Name": "Visual Concept (ビジュアルコンセプト)"
+      },
+      "Staff": [
+        {
+          "Id": "6223",
+          "Name": "Eda Keiichi"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "12",
+        "Name": "Mechanical Design (メカニックデザイン)"
+      },
+      "Staff": [
+        {
+          "Id": "1594",
+          "Name": "Moriki Yasuhiro"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "12",
+        "Name": "Mechanical Design (メカニックデザイン)"
+      },
+      "Staff": [
+        {
+          "Id": "3780",
+          "Name": "Shino Masanori"
+        },
+        {
+          "Id": "4375",
+          "Name": "Tsuneki Shinobu"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "1548",
+        "Name": "Chief Mechanical Animation Direction (メカニック総作画監督)"
+      },
+      "Staff": [
+        {
+          "Id": "3780",
+          "Name": "Shino Masanori"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "19",
+        "Name": "Music (音楽)"
+      },
+      "Staff": [
+        {
+          "Id": "4303",
+          "Name": "Hattori Katsuhisa"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "110",
+        "Name": "Music Work (音楽制作)"
+      },
+      "Staff": [
+        {
+          "Id": "823",
+          "Name": "Bestack"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "110",
+        "Name": "Music Work (音楽制作)"
+      },
+      "Staff": [
+        {
+          "Id": "824",
+          "Name": "Toy`s Factory"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "59",
+        "Name": "Sound Work (音響制作)"
+      },
+      "Staff": [
+        {
+          "Id": "1364",
+          "Name": "Audio Planning U"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "49",
+        "Name": "Sound Effects (音響効果)"
+      },
+      "Staff": [
+        {
+          "Id": "2714",
+          "Name": "Kurahashi Shizuo"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "46",
+        "Name": "Editing (編集)"
+      },
+      "Staff": [
+        {
+          "Id": "496",
+          "Name": "Seyama Takeshi"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "5",
+        "Name": "Art Direction (美術監督)"
+      },
+      "Staff": [
+        {
+          "Id": "4387",
+          "Name": "Okada Tomoaki"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "57",
+        "Name": "Colour Design (色彩設計)"
+      },
+      "Staff": [
+        {
+          "Id": "4744",
+          "Name": "Utagawa Ritsuko"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "8",
+        "Name": "Photographic Direction (撮影監督)"
+      },
+      "Staff": [
+        {
+          "Id": "2330",
+          "Name": "Shirai Hisao"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "27",
+        "Name": "Producer (プロデューサー)"
+      },
+      "Staff": [
+        {
+          "Id": "4646",
+          "Name": "Iwata Mikihiro"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "27",
+        "Name": "Producer (プロデューサー)"
+      },
+      "Staff": [
+        {
+          "Id": "1559",
+          "Name": "Kaifu Masaki"
+        },
+        {
+          "Id": "7677",
+          "Name": "Seki Korefumi"
+        },
+        {
+          "Id": "1563",
+          "Name": "Sugita Atsushi"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "27",
+        "Name": "Producer (プロデューサー)"
+      },
+      "Staff": [
+        {
+          "Id": "25360",
+          "Name": "Shimotsu Sakie"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "27",
+        "Name": "Producer (プロデューサー)"
+      },
+      "Staff": [
+        {
+          "Id": "4543",
+          "Name": "Watanabe Shigeru"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "27",
+        "Name": "Producer (プロデューサー)"
+      },
+      "Staff": [
+        {
+          "Id": "726",
+          "Name": "Sunrise"
+        },
+        {
+          "Id": "764",
+          "Name": "WOWOW"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "31",
+        "Name": "Storyboard (絵コンテ)"
+      },
+      "Staff": [
+        {
+          "Id": "4234",
+          "Name": "Nagaoka Yasuchika"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "31",
+        "Name": "Storyboard (絵コンテ)"
+      },
+      "Staff": [
+        {
+          "Id": "124",
+          "Name": "Shinohara Toshiya"
+        },
+        {
+          "Id": "106",
+          "Name": "Nishimoto Yukio"
+        },
+        {
+          "Id": "9851",
+          "Name": "Minami Yasuhiro"
+        },
+        {
+          "Id": "7281",
+          "Name": "Yamaguchi Mihiro"
+        },
+        {
+          "Id": "4257",
+          "Name": "Nishizawa Susumu"
+        },
+        {
+          "Id": "1966",
+          "Name": "Nabeshima Osamu"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "31",
+        "Name": "Storyboard (絵コンテ)"
+      },
+      "Staff": [
+        {
+          "Id": "124",
+          "Name": "Shinohara Toshiya"
+        },
+        {
+          "Id": "106",
+          "Name": "Nishimoto Yukio"
+        },
+        {
+          "Id": "7281",
+          "Name": "Yamaguchi Mihiro"
+        },
+        {
+          "Id": "1966",
+          "Name": "Nabeshima Osamu"
+        },
+        {
+          "Id": "4234",
+          "Name": "Nagaoka Yasuchika"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "4",
+        "Name": "Animation Direction (作画監督)"
+      },
+      "Staff": [
+        {
+          "Id": "12911",
+          "Name": "Takahashi Akira"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "4",
+        "Name": "Animation Direction (作画監督)"
+      },
+      "Staff": [
+        {
+          "Id": "1653",
+          "Name": "Shinbo Takurou"
+        },
+        {
+          "Id": "11231",
+          "Name": "Yoneyama Kouhei"
+        },
+        {
+          "Id": "3780",
+          "Name": "Shino Masanori"
+        },
+        {
+          "Id": "13689",
+          "Name": "Mukouyama Yuuji"
+        },
+        {
+          "Id": "9858",
+          "Name": "Nakajima Rie"
+        },
+        {
+          "Id": "127",
+          "Name": "Ootsuka Ken"
+        },
+        {
+          "Id": "4516",
+          "Name": "Watabe Keisuke"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "648",
+        "Name": "Character Animation Direction (キャラクター作画監督)"
+      },
+      "Staff": [
+        {
+          "Id": "1653",
+          "Name": "Shinbo Takurou"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "648",
+        "Name": "Character Animation Direction (キャラクター作画監督)"
+      },
+      "Staff": [
+        {
+          "Id": "4516",
+          "Name": "Watabe Keisuke"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "648",
+        "Name": "Character Animation Direction (キャラクター作画監督)"
+      },
+      "Staff": [
+        {
+          "Id": "3780",
+          "Name": "Shino Masanori"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "308",
+        "Name": "Ending Illustration (エンディングイラスト)"
+      },
+      "Staff": [
+        {
+          "Id": "1702",
+          "Name": "Akai Takami"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "35159",
+          "Name": "Futamura Mikito"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "virtual/17664",
+          "Name": "棗田秀人"
+        },
+        {
+          "Id": "16438",
+          "Name": "Takahashi Shin`ichi"
+        },
+        {
+          "Id": "1654",
+          "Name": "Hashimoto Seiichi"
+        },
+        {
+          "Id": "9261",
+          "Name": "Itakura Kazuhiro"
+        },
+        {
+          "Id": "9861",
+          "Name": "Miyashita Yuuji"
+        },
+        {
+          "Id": "13592",
+          "Name": "Mori Hiroyuki"
+        },
+        {
+          "Id": "19055",
+          "Name": "Tominaga Takehisa"
+        },
+        {
+          "Id": "1398",
+          "Name": "Nakamura Production"
+        },
+        {
+          "Id": "128",
+          "Name": "Ishino Satoshi"
+        },
+        {
+          "Id": "19179",
+          "Name": "Kikuchi Akira"
+        },
+        {
+          "Id": "13689",
+          "Name": "Mukouyama Yuuji"
+        },
+        {
+          "Id": "8713",
+          "Name": "Inoguchi Yuri"
+        },
+        {
+          "Id": "11596",
+          "Name": "Momose Emiko"
+        },
+        {
+          "Id": "15785",
+          "Name": "Funatsu Hiromi"
+        },
+        {
+          "Id": "1554",
+          "Name": "Studio Wanpack"
+        },
+        {
+          "Id": "17284",
+          "Name": "Kuroishi Takahiro"
+        },
+        {
+          "Id": "16271",
+          "Name": "Okabe Minoru"
+        },
+        {
+          "Id": "13090",
+          "Name": "Ishikawa Shinsuke"
+        },
+        {
+          "Id": "9758",
+          "Name": "Komurakata Kouji"
+        },
+        {
+          "Id": "11699",
+          "Name": "Yoshida Kazue"
+        },
+        {
+          "Id": "127",
+          "Name": "Ootsuka Ken"
+        },
+        {
+          "Id": "2324",
+          "Name": "Tanaka Ryou"
+        },
+        {
+          "Id": "10840",
+          "Name": "Sakuma Shin`ichi"
+        },
+        {
+          "Id": "22939",
+          "Name": "Tazawa Satoshi"
+        },
+        {
+          "Id": "17302",
+          "Name": "Enomoto Katsunori"
+        },
+        {
+          "Id": "3439",
+          "Name": "Ishikawa Tetsuya"
+        },
+        {
+          "Id": "3438",
+          "Name": "Ono Kazuhiro"
+        },
+        {
+          "Id": "22938",
+          "Name": "Sakai Kenta"
+        },
+        {
+          "Id": "23496",
+          "Name": "Seoul Dove"
+        },
+        {
+          "Id": "3436",
+          "Name": "Studio Dove"
+        },
+        {
+          "Id": "1652",
+          "Name": "Nakada Eiji"
+        },
+        {
+          "Id": "8569",
+          "Name": "Hirayama Madoka"
+        },
+        {
+          "Id": "35593",
+          "Name": "Katou Fumi"
+        },
+        {
+          "Id": "12754",
+          "Name": "Okada Takeshi"
+        },
+        {
+          "Id": "15490",
+          "Name": "Tsugihashi Yuki"
+        },
+        {
+          "Id": "9561",
+          "Name": "Washikita Kyouta"
+        },
+        {
+          "Id": "virtual/112394",
+          "Name": "日下部有美"
+        },
+        {
+          "Id": "virtual/112392",
+          "Name": "松尾聡子"
+        },
+        {
+          "Id": "7338",
+          "Name": "Saitou Hisashi"
+        },
+        {
+          "Id": "13224",
+          "Name": "Kongouji Dan"
+        },
+        {
+          "Id": "9858",
+          "Name": "Nakajima Rie"
+        },
+        {
+          "Id": "2479",
+          "Name": "Ban Yukiko"
+        },
+        {
+          "Id": "7137",
+          "Name": "Ishida Keiichi"
+        },
+        {
+          "Id": "15887",
+          "Name": "Ishii Yumiko"
+        },
+        {
+          "Id": "6797",
+          "Name": "Nakai Jun"
+        },
+        {
+          "Id": "1546",
+          "Name": "Horii Kumi"
+        },
+        {
+          "Id": "18875",
+          "Name": "Matsunaga Akira"
+        },
+        {
+          "Id": "11499",
+          "Name": "Masuda Kiyomi"
+        },
+        {
+          "Id": "7470",
+          "Name": "Mori Etsuhito"
+        },
+        {
+          "Id": "4257",
+          "Name": "Nishizawa Susumu"
+        },
+        {
+          "Id": "9706",
+          "Name": "Sekizaki Takaaki"
+        },
+        {
+          "Id": "3780",
+          "Name": "Shino Masanori"
+        },
+        {
+          "Id": "14450",
+          "Name": "Takahashi Teruo"
+        },
+        {
+          "Id": "9802",
+          "Name": "Inoue Kunihiko"
+        },
+        {
+          "Id": "12547",
+          "Name": "Hanawa Hiroaki"
+        },
+        {
+          "Id": "15680",
+          "Name": "Hanawa Miyuki"
+        },
+        {
+          "Id": "12861",
+          "Name": "Hazaka Hidenori"
+        },
+        {
+          "Id": "9769",
+          "Name": "Kiyomaru Satoru"
+        },
+        {
+          "Id": "7983",
+          "Name": "Matsushita Junko"
+        },
+        {
+          "Id": "7131",
+          "Name": "Morinaka Masaharu"
+        },
+        {
+          "Id": "8120",
+          "Name": "Shimada Hideaki"
+        },
+        {
+          "Id": "1910",
+          "Name": "Shimizu Takako"
+        },
+        {
+          "Id": "6129",
+          "Name": "Takeuchi Akira"
+        },
+        {
+          "Id": "24496",
+          "Name": "Yamamoto Hiroyuki"
+        },
+        {
+          "Id": "17301",
+          "Name": "Yokoyama Takashi"
+        },
+        {
+          "Id": "virtual/112416",
+          "Name": "沙羽都慶央"
+        },
+        {
+          "Id": "14513",
+          "Name": "Abe Shinji"
+        },
+        {
+          "Id": "7430",
+          "Name": "Ishikawa Masakazu"
+        },
+        {
+          "Id": "22056",
+          "Name": "Yamauchi Kimiko"
+        },
+        {
+          "Id": "12871",
+          "Name": "Yabumoto Yousuke"
+        },
+        {
+          "Id": "12192",
+          "Name": "Imura Manabu"
+        },
+        {
+          "Id": "7964",
+          "Name": "Kaneda Masahiko"
+        },
+        {
+          "Id": "2875",
+          "Name": "Heewon Entertainment"
+        },
+        {
+          "Id": "6051",
+          "Name": "Ikai Kazuyuki"
+        },
+        {
+          "Id": "19164",
+          "Name": "Inoue Eiji"
+        },
+        {
+          "Id": "17300",
+          "Name": "Kusakari Daisuke"
+        },
+        {
+          "Id": "7865",
+          "Name": "Nishioka Shinobu"
+        },
+        {
+          "Id": "1244",
+          "Name": "Oh! Production"
+        },
+        {
+          "Id": "19217",
+          "Name": "Tanji Hiroyuki"
+        },
+        {
+          "Id": "3067",
+          "Name": "Hirata Katsuzou"
+        },
+        {
+          "Id": "15779",
+          "Name": "Tsuruta Hitomi"
+        },
+        {
+          "Id": "4516",
+          "Name": "Watabe Keisuke"
+        },
+        {
+          "Id": "11110",
+          "Name": "Hirayama Madoka"
+        },
+        {
+          "Id": "5499",
+          "Name": "Kouno Yoshitaka"
+        },
+        {
+          "Id": "893",
+          "Name": "Magic Bus"
+        },
+        {
+          "Id": "11771",
+          "Name": "Masuda Nobuhiro"
+        },
+        {
+          "Id": "1594",
+          "Name": "Moriki Yasuhiro"
+        },
+        {
+          "Id": "4234",
+          "Name": "Nagaoka Yasuchika"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "11110",
+          "Name": "Hirayama Madoka"
+        },
+        {
+          "Id": "1546",
+          "Name": "Horii Kumi"
+        },
+        {
+          "Id": "9802",
+          "Name": "Inoue Kunihiko"
+        },
+        {
+          "Id": "1594",
+          "Name": "Moriki Yasuhiro"
+        },
+        {
+          "Id": "4234",
+          "Name": "Nagaoka Yasuchika"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "16271",
+          "Name": "Okabe Minoru"
+        },
+        {
+          "Id": "19177",
+          "Name": "Ootani Miki"
+        },
+        {
+          "Id": "16412",
+          "Name": "Saitou Reiko"
+        },
+        {
+          "Id": "25368",
+          "Name": "Nakamura Mitsuteru"
+        },
+        {
+          "Id": "16473",
+          "Name": "Miura Yoshitomo"
+        },
+        {
+          "Id": "14557",
+          "Name": "Kaneko Katsunori"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "928",
+          "Name": "Office AO"
+        },
+        {
+          "Id": "52377",
+          "Name": "Studio Theta"
+        },
+        {
+          "Id": "12020",
+          "Name": "Tanabe Setsuya"
+        },
+        {
+          "Id": "10718",
+          "Name": "Nawa Takahiro"
+        },
+        {
+          "Id": "15303",
+          "Name": "Miyazaki Daisuke"
+        },
+        {
+          "Id": "1398",
+          "Name": "Nakamura Production"
+        },
+        {
+          "Id": "811",
+          "Name": "A.P.P.P."
+        },
+        {
+          "Id": "17292",
+          "Name": "Fukuda Tsuguru"
+        },
+        {
+          "Id": "15876",
+          "Name": "Tajima Tomoyuki"
+        },
+        {
+          "Id": "10769",
+          "Name": "Takase Ken`ichi"
+        },
+        {
+          "Id": "12854",
+          "Name": "MI"
+        },
+        {
+          "Id": "895",
+          "Name": "Plum"
+        },
+        {
+          "Id": "10716",
+          "Name": "Studio Gouache"
+        },
+        {
+          "Id": "791",
+          "Name": "Studio Wombat"
+        },
+        {
+          "Id": "22036",
+          "Name": "Yukino Hideko"
+        },
+        {
+          "Id": "17869",
+          "Name": "Yoshizawa Yaeko"
+        },
+        {
+          "Id": "18351",
+          "Name": "Takenouchi Setsuko"
+        },
+        {
+          "Id": "11070",
+          "Name": "Studio Line"
+        },
+        {
+          "Id": "1554",
+          "Name": "Studio Wanpack"
+        },
+        {
+          "Id": "18517",
+          "Name": "Tominaga Kazuyo"
+        },
+        {
+          "Id": "13154",
+          "Name": "Anime World Osaka"
+        },
+        {
+          "Id": "22275",
+          "Name": "Matsui Akira"
+        },
+        {
+          "Id": "virtual/90164",
+          "Name": "横山勝広"
+        },
+        {
+          "Id": "23496",
+          "Name": "Seoul Dove"
+        },
+        {
+          "Id": "23495",
+          "Name": "Shanghai Dove"
+        },
+        {
+          "Id": "3436",
+          "Name": "Studio Dove"
+        },
+        {
+          "Id": "10930",
+          "Name": "Maeda Seimei"
+        },
+        {
+          "Id": "16412",
+          "Name": "Saitou Reiko"
+        },
+        {
+          "Id": "33241",
+          "Name": "Oota Kazutomo"
+        },
+        {
+          "Id": "23559",
+          "Name": "Tominaga Kazuyo"
+        },
+        {
+          "Id": "22101",
+          "Name": "Mori Fumiyo"
+        },
+        {
+          "Id": "3045",
+          "Name": "Studio Cockpit"
+        },
+        {
+          "Id": "2467",
+          "Name": "Studio Add"
+        },
+        {
+          "Id": "virtual/112390",
+          "Name": "青木里恵"
+        },
+        {
+          "Id": "36688",
+          "Name": "Studio Myu"
+        },
+        {
+          "Id": "10929",
+          "Name": "Inadome Kazumi"
+        },
+        {
+          "Id": "26947",
+          "Name": "Kajita Youko"
+        },
+        {
+          "Id": "17101",
+          "Name": "Wada Yoshiaki"
+        },
+        {
+          "Id": "35936",
+          "Name": "Yoshida Takashi"
+        },
+        {
+          "Id": "35900",
+          "Name": "Kunioka Nobumitsu"
+        },
+        {
+          "Id": "14907",
+          "Name": "Miyahara Hidenori"
+        },
+        {
+          "Id": "35160",
+          "Name": "Nihon`yanagi Ryuugo"
+        },
+        {
+          "Id": "35021",
+          "Name": "Shimoyajiri Tsuyoshi"
+        },
+        {
+          "Id": "63089",
+          "Name": "Studio D-Volt"
+        },
+        {
+          "Id": "virtual/112397",
+          "Name": "三上幸恵"
+        },
+        {
+          "Id": "virtual/112403",
+          "Name": "斉藤真紀"
+        },
+        {
+          "Id": "virtual/112399",
+          "Name": "藤田秀明"
+        },
+        {
+          "Id": "33144",
+          "Name": "Shimazu Tomonari"
+        },
+        {
+          "Id": "15785",
+          "Name": "Funatsu Hiromi"
+        },
+        {
+          "Id": "25368",
+          "Name": "Nakamura Mitsuteru"
+        },
+        {
+          "Id": "12322",
+          "Name": "White Line"
+        },
+        {
+          "Id": "virtual/112419",
+          "Name": "今西憲司"
+        },
+        {
+          "Id": "12928",
+          "Name": "Feilong Donghua"
+        },
+        {
+          "Id": "1038",
+          "Name": "Actas"
+        },
+        {
+          "Id": "3447",
+          "Name": "Buyuu"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "17305",
+          "Name": "Masuda Yoshimasa"
+        },
+        {
+          "Id": "5485",
+          "Name": "Ootake Kyouko"
+        },
+        {
+          "Id": "36688",
+          "Name": "Studio Myu"
+        },
+        {
+          "Id": "4744",
+          "Name": "Utagawa Ritsuko"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "36688",
+          "Name": "Studio Myu"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "17823",
+          "Name": "Mizoguchi Kumiko"
+        },
+        {
+          "Id": "virtual/17405",
+          "Name": "アニメワールド都煌"
+        },
+        {
+          "Id": "13154",
+          "Name": "Anime World Osaka"
+        },
+        {
+          "Id": "17291",
+          "Name": "Nishiwaki Youhei"
+        },
+        {
+          "Id": "31290",
+          "Name": "Takewaka Nobuhiko"
+        },
+        {
+          "Id": "25747",
+          "Name": "Fujimoto Yukiko"
+        },
+        {
+          "Id": "18215",
+          "Name": "Iwamoto Akiko"
+        },
+        {
+          "Id": "23653",
+          "Name": "Masuda Mayumi"
+        },
+        {
+          "Id": "virtual/17401",
+          "Name": "橋本良範"
+        },
+        {
+          "Id": "24192",
+          "Name": "Ueno Noriko"
+        },
+        {
+          "Id": "17821",
+          "Name": "Kashihara Hitomi"
+        },
+        {
+          "Id": "22035",
+          "Name": "Sawa Hiroko"
+        },
+        {
+          "Id": "24253",
+          "Name": "Yoneda Ai"
+        },
+        {
+          "Id": "virtual/90122",
+          "Name": "清水このみ"
+        },
+        {
+          "Id": "virtual/90120",
+          "Name": "鈴木ひとみ"
+        },
+        {
+          "Id": "35324",
+          "Name": "Itou Machi"
+        },
+        {
+          "Id": "67552",
+          "Name": "Sasaki Miwa"
+        },
+        {
+          "Id": "virtual/90158",
+          "Name": "伊藤三佳"
+        },
+        {
+          "Id": "virtual/90161",
+          "Name": "奥迫智絵"
+        },
+        {
+          "Id": "virtual/90159",
+          "Name": "津田真友子"
+        },
+        {
+          "Id": "virtual/90157",
+          "Name": "田中美智代"
+        },
+        {
+          "Id": "22046",
+          "Name": "Yoshii Aya"
+        },
+        {
+          "Id": "virtual/91035",
+          "Name": "小林昭子"
+        },
+        {
+          "Id": "virtual/91038",
+          "Name": "山本亜希"
+        },
+        {
+          "Id": "virtual/91037",
+          "Name": "松尾幸子"
+        },
+        {
+          "Id": "virtual/91036",
+          "Name": "竹内真紀"
+        },
+        {
+          "Id": "virtual/91034",
+          "Name": "藤倉由香"
+        },
+        {
+          "Id": "25745",
+          "Name": "Mizutani Yasuko"
+        },
+        {
+          "Id": "virtual/112387",
+          "Name": "大石基公美"
+        },
+        {
+          "Id": "virtual/112388",
+          "Name": "尾崎真規"
+        },
+        {
+          "Id": "virtual/112389",
+          "Name": "平井久美子"
+        },
+        {
+          "Id": "27555",
+          "Name": "Hamano Akane"
+        },
+        {
+          "Id": "11783",
+          "Name": "Kitagawa Tarou"
+        },
+        {
+          "Id": "12322",
+          "Name": "White Line"
+        },
+        {
+          "Id": "virtual/112410",
+          "Name": "杉野久定"
+        },
+        {
+          "Id": "virtual/112408",
+          "Name": "熊澤稚佳子"
+        },
+        {
+          "Id": "virtual/112407",
+          "Name": "鈴木舳理絵"
+        },
+        {
+          "Id": "12928",
+          "Name": "Feilong Donghua"
+        },
+        {
+          "Id": "36688",
+          "Name": "Studio Myu"
+        },
+        {
+          "Id": "3447",
+          "Name": "Buyuu"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "14",
+        "Name": "Key Animation (原画)"
+      },
+      "Staff": [
+        {
+          "Id": "32151",
+          "Name": "Iino Ayumi"
+        },
+        {
+          "Id": "10024",
+          "Name": "Design Office Mecaman"
+        },
+        {
+          "Id": "15241",
+          "Name": "Honda Takashi"
+        },
+        {
+          "Id": "25659",
+          "Name": "Kobayashi Taeko"
+        },
+        {
+          "Id": "23709",
+          "Name": "Morita Yasuko"
+        },
+        {
+          "Id": "17295",
+          "Name": "Takahashi Eiji"
+        },
+        {
+          "Id": "2621",
+          "Name": "Tsubaki Hiroyuki"
+        },
+        {
+          "Id": "virtual/90131",
+          "Name": "明石プロダクション"
+        },
+        {
+          "Id": "22038",
+          "Name": "Ishiwata Noriko"
+        },
+        {
+          "Id": "35679",
+          "Name": "Studio Boa"
+        },
+        {
+          "Id": "22293",
+          "Name": "Toyoshima Nishiki"
+        },
+        {
+          "Id": "18764",
+          "Name": "Chiba Kaoru"
+        },
+        {
+          "Id": "7203",
+          "Name": "Katanosaka Goichi"
+        },
+        {
+          "Id": "24004",
+          "Name": "Shimomoto Tomoko"
+        },
+        {
+          "Id": "34493",
+          "Name": "Studio Who"
+        },
+        {
+          "Id": "10940",
+          "Name": "Abe Yukie"
+        },
+        {
+          "Id": "10941",
+          "Name": "Ishigaki Production"
+        },
+        {
+          "Id": "14367",
+          "Name": "Itou Akemi"
+        },
+        {
+          "Id": "23105",
+          "Name": "Kanno Hiroshi"
+        },
+        {
+          "Id": "19871",
+          "Name": "Kawana Toshihide"
+        },
+        {
+          "Id": "28100",
+          "Name": "Nakashouji Etsuko"
+        },
+        {
+          "Id": "13226",
+          "Name": "Nomura Yuuki"
+        },
+        {
+          "Id": "13099",
+          "Name": "Ootsuka Nobuhiro"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "119",
+        "Name": "Photography (撮影)"
+      },
+      "Staff": [
+        {
+          "Id": "1139",
+          "Name": "Studio Cosmos"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "119",
+        "Name": "Photography (撮影)"
+      },
+      "Staff": [
+        {
+          "Id": "15600",
+          "Name": "Awakura Masafumi"
+        },
+        {
+          "Id": "14292",
+          "Name": "Dei Kumiko"
+        },
+        {
+          "Id": "11780",
+          "Name": "Furusawa Kouichi"
+        },
+        {
+          "Id": "4322",
+          "Name": "Ikegami Motoaki"
+        },
+        {
+          "Id": "3069",
+          "Name": "Ikegami Shinji"
+        },
+        {
+          "Id": "9922",
+          "Name": "Oofuji Tetsuo"
+        },
+        {
+          "Id": "3593",
+          "Name": "Orikasa Yuuko"
+        },
+        {
+          "Id": "10560",
+          "Name": "Shimada Takashi"
+        },
+        {
+          "Id": "10721",
+          "Name": "Yamaguchi Norikazu"
+        },
+        {
+          "Id": "22037",
+          "Name": "Nishiyama Tomohiro"
+        },
+        {
+          "Id": "3603",
+          "Name": "Haijima Naohisa"
+        },
+        {
+          "Id": "17285",
+          "Name": "Katsuta Yuuki"
+        },
+        {
+          "Id": "8689",
+          "Name": "Kuno Toshikazu"
+        },
+        {
+          "Id": "5921",
+          "Name": "Maebara Katsunori"
+        },
+        {
+          "Id": "10719",
+          "Name": "Noguchi Hiroshi"
+        },
+        {
+          "Id": "17090",
+          "Name": "Shiozuka Hiroki"
+        },
+        {
+          "Id": "3600",
+          "Name": "Shirai Yuuji"
+        },
+        {
+          "Id": "12048",
+          "Name": "Yazawa Shouji"
+        },
+        {
+          "Id": "12087",
+          "Name": "Nishiyama Tomohiro"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "400",
+        "Name": "CG Work (CG制作)"
+      },
+      "Staff": [
+        {
+          "Id": "7849",
+          "Name": "Ooba Naoyuki"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "400",
+        "Name": "CG Work (CG制作)"
+      },
+      "Staff": [
+        {
+          "Id": "1037",
+          "Name": "Raretrick"
+        },
+        {
+          "Id": "14961",
+          "Name": "Furukawa Takayuki"
+        },
+        {
+          "Id": "1016",
+          "Name": "Asahi Production"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "65",
+        "Name": "Title (タイトル)"
+      },
+      "Staff": [
+        {
+          "Id": "4936",
+          "Name": "Maki Pro"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "55",
+        "Name": "Editing Assistant (編集助手)"
+      },
+      "Staff": [
+        {
+          "Id": "5971",
+          "Name": "Mizuta Kyouko"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "55",
+        "Name": "Editing Assistant (編集助手)"
+      },
+      "Staff": [
+        {
+          "Id": "17303",
+          "Name": "Saitou Kaoru"
+        },
+        {
+          "Id": "5338",
+          "Name": "Uchida Megumi"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "150",
+        "Name": "Film (フィルム)"
+      },
+      "Staff": [
+        {
+          "Id": "10758",
+          "Name": "Eastman Kodak"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "247",
+        "Name": "Film Editing (ビデオ編集)"
+      },
+      "Staff": [
+        {
+          "Id": "24909",
+          "Name": "Tanoguchi Shougo"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "895",
+        "Name": "Sound Work Desk (音響制作デスク)"
+      },
+      "Staff": [
+        {
+          "Id": "17294",
+          "Name": "Ozawa Megumi"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "629",
+        "Name": "Sound Adjustment (整音)"
+      },
+      "Staff": [
+        {
+          "Id": "17282",
+          "Name": "Uchiyama Takaaki"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "1549",
+        "Name": "Sound Adjustment Assistant (整音アシスタント)"
+      },
+      "Staff": [
+        {
+          "Id": "15045",
+          "Name": "Yamamoto Hisashi"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "62",
+        "Name": "Recording Studio (録音スタジオ)"
+      },
+      "Staff": [
+        {
+          "Id": "1782",
+          "Name": "APU Studio"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "806",
+        "Name": "Public Relations Manager (広報担当)"
+      },
+      "Staff": [
+        {
+          "Id": "20706",
+          "Name": "Asai Kaoru"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "806",
+        "Name": "Public Relations Manager (広報担当)"
+      },
+      "Staff": [
+        {
+          "Id": "17293",
+          "Name": "Kumagai Jun"
+        },
+        {
+          "Id": "7618",
+          "Name": "Suzuki Michiko"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "323",
+        "Name": "Art and Literature (文芸)"
+      },
+      "Staff": [
+        {
+          "Id": "7343",
+          "Name": "Inari Akihiko"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "43",
+        "Name": "Production Desk (制作デスク)"
+      },
+      "Staff": [
+        {
+          "Id": "24170",
+          "Name": "Aoki Ryuusuke"
+        }
+      ]
+    },
+    {
+      "Credit": {
+        "Id": "33",
+        "Name": "Assistant Production Manager (制作進行)"
+      },
+      "Staff": [
+        {
+          "Id": "virtual/17458",
+          "Name": "伊達海彦"
+        }
+      ]
+    }
+  ]
+}
