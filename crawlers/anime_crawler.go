@@ -7,6 +7,7 @@ import (
 	"io"
 	"log"
 	"strconv"
+	"strings"
 
 	"github.com/PuerkitoBio/goquery"
 )
@@ -46,17 +47,21 @@ func CrawlAnime(idInt int) (*model.AnimeInfo, error) {
 
 	doc := NewAnimeDocument(response.Body, id)
 	return &model.AnimeInfo{
-		Id:               id,
-		ImageUrl:         doc.parseImage(),
-		Title:            doc.parseTitle(),
-		OfficialTitleEng: doc.parseOfficialTitleEN(),
-		OfficialTitleJa:  doc.parseOfficialTitleJa(),
-		Description:      doc.parseDescription(),
-		Type:             doc.parseType(),
-		Year:             doc.parseYear(),
-		Tags:             doc.parseTags(),
-		TagsDesc:         doc.parseTagsDesc(),
-		StaffNCredit:     doc.parseStaffNCredit(),
+		Id:                  id,
+		ImageUrl:            doc.parseImage(),
+		Title:               doc.parseTitle(),
+		OfficialTitleEng:    doc.parseOfficialTitleEN(),
+		OfficialTitleJa:     doc.parseOfficialTitleJa(),
+		Description:         doc.parseDescription(),
+		Type:                doc.parseType(),
+		Year:                doc.parseYear(),
+		Tags:                doc.parseTags(),
+		TagsDesc:            doc.parseTagsDesc(),
+		StaffNCredit:        doc.parseStaffNCredit(),
+		MainCharacters:      doc.parseMainCharacters(),
+		SecondaryCharacters: doc.parseSecondaryCharacters(),
+		AppearsCharacters:   doc.parseAppearsCharacters(),
+		Episodes:            doc.getEpisodes(),
 	}, nil
 }
 
@@ -91,7 +96,7 @@ func (p animeDocument) parseOfficialTitleJa() string {
 }
 
 func (p animeDocument) parseDescription() string {
-	return p.Find("div.g_bubble.g_section.desc").Text()
+	return trimChars(p.Find("div.g_bubble.g_section.desc").Text())
 }
 
 func (p animeDocument) parseType() string {
@@ -139,12 +144,57 @@ func (p animeDocument) parseStaffNCredit() []model.StaffCredit {
 				moreStaff = nil
 			}
 			if hasCredit(c.Next()) {
-				fmt.Println("hasd")
 				staffCredits = append(staffCredits, staffCredit)
 			}
 		})
 	})
 	return staffCredits
+}
+
+func (p animeDocument) parseMainCharacters() []string {
+	mainCharacters := []string{}
+	p.Find("div.container div.g_section.main.character div.g_bubble.stripe.medium").Each(func(i int, e *goquery.Selection) {
+		val, _ := e.Find("div.thumb.image.char a").Attr("href")
+		mainCharacters = append(mainCharacters, val[11:])
+	})
+	return mainCharacters
+}
+
+func (p animeDocument) parseSecondaryCharacters() []string {
+	secondaryCharacters := []string{}
+	p.Find("div.container div.g_section.secondary.cast div.g_bubble.stripe.medium").Each(func(i int, e *goquery.Selection) {
+		val, _ := e.Find("div.thumb.image.char a").Attr("href")
+		secondaryCharacters = append(secondaryCharacters, val[11:])
+	})
+	return secondaryCharacters
+}
+
+func (p animeDocument) parseAppearsCharacters() []string {
+	appearsCharacters := []string{}
+	p.Find("div.container div.g_section.appears div.g_bubble.stripe.medium").Each(func(i int, e *goquery.Selection) {
+		val, exists := e.Find("div.thumb.image.char a").Attr("href")
+		if exists {
+			appearsCharacters = append(appearsCharacters, val[11:])
+		}
+	})
+	return appearsCharacters
+}
+
+func (p animeDocument) getEpisodes() []model.Episode {
+	episodes := []model.Episode{}
+	p.Find("div.g_section.container table#eplist tbody tr").Each(func(i int, e *goquery.Selection) {
+		episode := model.Episode{}
+		episode.Num = trimChars(e.Find("td.id a abbr").Text())
+		idInt, _ := e.Find("td.id a").Attr("href")
+		episode.Id = idInt[10:]
+		episode.Title = trimChars(e.Find("td.title label").Text())
+		episode.Duration = trimChars(e.Find("td.duration").Text())
+		episode.AirDate = trimChars(e.Find("td.date.airdate").Text())
+		if e.Find(" td.id a abbr[title*=\"Opening/Ending\"]").Text() == "" {
+			episodes = append(episodes, episode)
+		}
+	})
+	return episodes
 }
 
 func getStaff(el *goquery.Selection) model.Staff {
@@ -164,4 +214,10 @@ func getCredit(el *goquery.Selection) model.Credit {
 func hasCredit(el *goquery.Selection) bool {
 	idEl, _ := el.Find("td.credit a").Attr("href")
 	return idEl != ""
+}
+
+func trimChars(str string) string {
+	result := strings.ReplaceAll(str, "\t", "")
+	result = strings.ReplaceAll(result, "\n", "")
+	return result
 }

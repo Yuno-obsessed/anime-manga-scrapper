@@ -12,7 +12,7 @@ func main() {
 	if err != nil {
 		log.Println(err)
 	}
-	err = app.CrawlAnime()
+	err = app.CrawlCreators()
 	if err != nil {
 		log.Println(err)
 	}

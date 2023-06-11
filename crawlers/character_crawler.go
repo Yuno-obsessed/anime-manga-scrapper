@@ -78,7 +78,7 @@ func (p characterDocument) parseImage() string {
 }
 
 func (p characterDocument) parseDescription() string {
-	return p.Find("div.g_bubble.g_section.desc").Text()
+	return trimChars(p.Find("div.g_bubble.g_section.desc").Text())
 }
 
 func (p characterDocument) parseMainName() string {

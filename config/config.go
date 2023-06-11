@@ -16,7 +16,7 @@ import (
 )
 
 var ErrNotFound error = errors.New("404")
-var Random = rand.New(rand.NewSource(time.Now().UnixNano()))
+var random = rand.New(rand.NewSource(time.Now().UnixNano()))
 
 func PrepareRequest(url string) (*http.Response, error) {
 	log.Println(url)
@@ -41,6 +41,16 @@ func PrepareRequest(url string) (*http.Response, error) {
 
 	log.Println(response.StatusCode)
 	return response, err
+}
+
+func TimeoutRequest() {
+	time.Sleep(generateRandomTimeout())
+}
+
+func generateRandomTimeout() time.Duration {
+	t := time.Second * time.Duration(2+random.Intn(14-2))
+	log.Println("Waiting for", t)
+	return t
 }
 
 func generateRandomProxy() (*http.Client, error) {

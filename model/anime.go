@@ -21,6 +21,7 @@ type AnimeInfo struct {
 	MainCharacters      []string      `json:"main_characters"`
 	SecondaryCharacters []string      `json:"secondary_characters"`
 	AppearsCharacters   []string      `json:"appears_characters"`
+	Episodes            []Episode     `json:"episodes"`
 }
 
 type StaffCredit struct {
@@ -36,6 +37,14 @@ type Staff struct {
 type Credit struct {
 	Id   string
 	Name string
+}
+
+type Episode struct {
+	Id       string
+	Num      string
+	Title    string
+	Duration string
+	AirDate  string
 }
 
 type AnimeInfoList []*AnimeInfo

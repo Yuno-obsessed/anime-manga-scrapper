@@ -4,7 +4,7 @@
   "title": "Seikai no Monshou",
   "off_title_eng": "Crest of the Stars",
   "off_title_ja": "星界の紋章",
-  "description": "* Based on the sci-fi novel series by Morioka Hiroyuki.\n\nLinn Jinto's life changes forever when the Humankind Empire Abh takes over his home planet of Martine without firing a single shot. He is soon sent off to study the Abh language and culture and to prepare himself for his future as a nobleman — a future he never dreamed of, asked for, or even wanted.\n\nNow, Jinto is entering the next phase of his training, and he is about to meet the first Abh in his life, the lovely Lafiel. However, Jinto is about to learn that there is more to her than meets the eye, and together they will have to fight for their very lives.\n\t",
+  "description": "* Based on the sci-fi novel series by Morioka Hiroyuki.Linn Jinto's life changes forever when the Humankind Empire Abh takes over his home planet of Martine without firing a single shot. He is soon sent off to study the Abh language and culture and to prepare himself for his future as a nobleman — a future he never dreamed of, asked for, or even wanted.Now, Jinto is entering the next phase of his training, and he is about to meet the first Abh in his life, the lovely Lafiel. However, Jinto is about to learn that there is more to her than meets the eye, and together they will have to fight for their very lives.",
   "type": "TV Series, 13 episodes",
   "year": "03.01.1999 until 28.03.1999",
   "tags": [
@@ -1775,6 +1775,134 @@
           "Name": "伊達海彦"
         }
       ]
+    }
+  ],
+  "main_characters": [
+    "28",
+    "4081"
+  ],
+  "secondary_characters": [
+    "4079",
+    "21954",
+    "4082",
+    "4085",
+    "4086",
+    "21945",
+    "21944",
+    "7512",
+    "4088",
+    "21943",
+    "21946",
+    "21947",
+    "4080",
+    "21948",
+    "4084",
+    "4083",
+    "21949"
+  ],
+  "appears_characters": [
+    "40209",
+    "4087",
+    "21911",
+    "7503",
+    "49519",
+    "7516",
+    "7514",
+    "7501",
+    "21958",
+    "7493"
+  ],
+  "episodes": [
+    {
+      "Id": "",
+      "Num": "1",
+      "Title": "Invasion",
+      "Duration": "25m",
+      "AirDate": "03.01.1999"
+    },
+    {
+      "Id": "",
+      "Num": "2",
+      "Title": "Kin of the Stars",
+      "Duration": "25m",
+      "AirDate": "10.01.1999"
+    },
+    {
+      "Id": "012",
+      "Num": "3",
+      "Title": "Daughter of Love",
+      "Duration": "25m",
+      "AirDate": "17.01.1999"
+    },
+    {
+      "Id": "011",
+      "Num": "4",
+      "Title": "Surprise Attack",
+      "Duration": "25m",
+      "AirDate": "24.01.1999"
+    },
+    {
+      "Id": "010",
+      "Num": "5",
+      "Title": "The Battle of Gosroth",
+      "Duration": "25m",
+      "AirDate": "31.01.1999"
+    },
+    {
+      "Id": "019",
+      "Num": "6",
+      "Title": "Mysterious Conspiracy",
+      "Duration": "25m",
+      "AirDate": "07.02.1999"
+    },
+    {
+      "Id": "017",
+      "Num": "7",
+      "Title": "Fortunate Revolt",
+      "Duration": "25m",
+      "AirDate": "14.02.1999"
+    },
+    {
+      "Id": "015",
+      "Num": "8",
+      "Title": "The Style of the Abh",
+      "Duration": "25m",
+      "AirDate": "21.02.1999"
+    },
+    {
+      "Id": "013",
+      "Num": "9",
+      "Title": "To the Battlefield",
+      "Duration": "25m",
+      "AirDate": "28.02.1999"
+    },
+    {
+      "Id": "009",
+      "Num": "10",
+      "Title": "Escape: Just the Two of Us",
+      "Duration": "25m",
+      "AirDate": "07.03.1999"
+    },
+    {
+      "Id": "018",
+      "Num": "11",
+      "Title": "Sufugnoff Gateway Battle",
+      "Duration": "25m",
+      "AirDate": "14.03.1999"
+    },
+    {
+      "Id": "016",
+      "Num": "12",
+      "Title": "Lady of Chaos",
+      "Duration": "25m",
+      "AirDate": "21.03.1999"
+    },
+    {
+      "Id": "014",
+      "Num": "13",
+      "Title": "Trouble Soaring Through Heaven",
+      "Duration": "40m",
+      "AirDate": "28.03.1999"
     }
   ]
 }
